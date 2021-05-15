@@ -23,6 +23,7 @@ async function assesment(url){
     const src = await Links.getProperty('href');
     const link= await src.jsonValue();
 
+    alert("closing window");
     browser.close();
 
 }
